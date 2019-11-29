@@ -70,4 +70,5 @@ public class numSquares_279 {
         }
         return squares;
     }
+
 }

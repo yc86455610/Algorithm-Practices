@@ -1,11 +1,10 @@
 package yc.java.Arrays;
 
-import java.security.PrivilegedAction;
 import java.util.Arrays;
 
 /**
  * @program: Algorithm-Practices
- * @description: 调整书序顺序似奇数位于偶数前面，同时需要保证相对位置不变
+ * @description: 调整数组顺序似奇数位于偶数前面，同时需要保证相对位置不变
  * @author: yc
  * @create: 2019-11-24 14:52
  * <p>

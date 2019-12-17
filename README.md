@@ -16,6 +16,18 @@
       * [15、双指针](#15双指针)
       * [16、分治思想](#16分治思想)
 
+# 剑指offer表格方便查找
+
+| 题号  |        题目        |      思想      |                                                        代码                                                         |
+| :---: | :----------------: | :------------: | :-----------------------------------------------------------------------------------------------------------------: |
+|  04   | 【二维数组的查找】 |   数组，查找   |         [find](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/Arrays/Find_offer4.java)         |
+|  05   |    【替换空格】    | 字符串，双指针 | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+
+
+
+
+
+
 # LeetCode以及剑指offer算法题练习
 
 分章节精选了LeetCode约200题，剑指offer70题，刷完两遍再去面试。。。

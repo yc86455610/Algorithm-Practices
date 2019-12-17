@@ -17,7 +17,7 @@ import java.util.Arrays;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] nums = {42, 20, 17, 13, 28, 14, 23, 15};
+        int[] nums = {12, 42, 20, 17, 13, 28, 14, 23, 15};
 //        bubble1(nums);
         bubble2(nums);
     }
@@ -47,15 +47,15 @@ public class BubbleSort {
         long start = System.nanoTime();
 
         for (int i = 0; i < nums.length; i++) {
-            //flag默认为false，表示排序没有交换
-            boolean flag = false;
+            //isSort 默认为true   每一轮遍历时，若为true  表示此轮没有交换  数组已经有序
+            boolean isSorted = true;
             for (int j = 0; j < nums.length - i - 1; j++) {
                 if (nums[j] > nums[j + 1]) {
                     swap(nums, j, j + 1);
-                    flag = true;  //本轮有交换
+                    isSorted = false;  //本轮有交换
                 }
             }
-            if (!flag) break;
+            if (isSorted) break;
             System.out.println("第" + (i + 1) + "轮后:" + Arrays.toString(nums));
         }
 

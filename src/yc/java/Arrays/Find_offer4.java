@@ -19,7 +19,7 @@ package yc.java.Arrays;
  * [18, 21, 23, 26, 30]
  * ]
  *
- * Given target = 5, return true.
+ * Given target = 5, return true.nba
  * Given target = 20, return false.
  *
  * 思路：双指针

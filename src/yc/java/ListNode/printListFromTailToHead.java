@@ -25,6 +25,7 @@ public class printListFromTailToHead {
 
     //头插法:将节点插入到头部，在遍历原始链表时，将当前节点插入到新链表的头部，使其成为第一个节点
     public static ArrayList<Integer> printListFromTailToHead2(ListNode listNode) {
+        z
         //头插法构建逆序链表
         ListNode head = new ListNode(-1);
         while (listNode != null) {

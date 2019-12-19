@@ -41,5 +41,4 @@ public class isContinuous_offer61 {
         return cnt >= 0;
     }
 
-
 }

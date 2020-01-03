@@ -18,30 +18,34 @@
 
 # 剑指offer表格方便查找
 
-| 题号  |         题目         |       思想       |                                                                 代码                                                                  |
-| :---: | :------------------: | :--------------: | :-----------------------------------------------------------------------------------------------------------------------------------: |
-|  04   |  【二维数组的查找】  |    数组，查找    |                  [find](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/Arrays/Find_offer4.java)                  |
-|  05   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  06   | 【从尾到头打印链表】 | 链表，递归，迭代 | [printListFromTailToHead ](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/ListNode/printListFromTailToHead.java) |
-|  07   |    【重建二叉树】    |      二叉树      |  [reConstructBinaryTree](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/Tree/reConstructBinaryTree_offer7.java)  |
-|  08   | 【用两个栈实现队列】 |        栈        |       [TwoStackQueue](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/StackAndQueue/TestStack_offer9.java)        |
-|  09   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  10   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  11   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  12   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  13   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  14   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  15   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  16   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  17   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  18   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  19   |     【替换空格】     |  字符串，双指针  |         [replaceSpace](https://github.com/ycFw/Algor、ithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)         |
-|  20   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  05   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  05   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  05   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  05   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  05   |     【替换空格】     |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
+| 题号 |         题目         |       思想       |                             代码                             |
+| :--: | :------------------: | :--------------: | :----------------------------------------------------------: |
+|  04  |  【二维数组的查找】  |    数组，查找    | [find](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/Arrays/Find_offer4.java) |
+|  05  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  06  | 【从尾到头打印链表】 | 链表，递归，迭代 | [printListFromTailToHead ](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/ListNode/printListFromTailToHead.java) |
+|  07  |    【重建二叉树】    |      二叉树      | [reConstructBinaryTree](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/Tree/reConstructBinaryTree_offer7.java) |
+|  08  | 【用两个栈实现队列】 |        栈        | [TwoStackQueue](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/StackAndQueue/TestStack_offer9.java) |
+|  09  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  10  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  11  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  12  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  13  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  14  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  15  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  16  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  17  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  18  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  19  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algor、ithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  20  |         【】         |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  21  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  22  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  23  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  24  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+|  25  |     【替换空格】     |  字符串，双指针  | [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java) |
+
+
+
+
 
 
 

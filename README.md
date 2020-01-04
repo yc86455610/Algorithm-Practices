@@ -29,14 +29,14 @@
 |  09   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
 |  10   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
 |  11   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  12   | 【打印1到最大的n位数】 |  递归，大数问题  |     [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/Arrays/print1ToMaxOfNDigits_offer17.java)      |
+|  12   | 【打印1到最大的n位数】 |  递归，大数问题  |     [print1ToMaxOfNDigits](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/Arrays/print1ToMaxOfNDigits_offer17.java)      |
 |  13   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
 |  14   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
 |  15   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
 |  16   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
 |  17   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
 |  17   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  31   |      【连续子数组的最大和】      |  动态规划  |          [FindGreatestSumOfSubArray](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
+|  31   |      【连续子数组的最大和】      |  动态规划  |          [findGreatestSumOfSubArray](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/DynamicPlanning/FindGreatestSumOfSubArray.java)          |
 
 
 

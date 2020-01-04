@@ -25,7 +25,7 @@
 |  05   |  【从尾到头打印链表】  | 链表，递归，迭代 | [printListFromTailToHead ](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/ListNode/printListFromTailToHead.java) |
 |  06   |     【重建二叉树】     |      二叉树      |  [reConstructBinaryTree](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/Tree/reConstructBinaryTree_offer7.java)  |
 |  07   |  【用两个栈实现队列】  |        栈        |       [TwoStackQueue](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/StackAndQueue/TestStack_offer9.java)        |
-|  08   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
+|  08   |      【旋转数组的最小值】      |  二分查找  |          [minNumberInRotatedArray](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/binaryresearch/MinNumberInRotatedArray.java)          |
 |  09   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
 |  10   |      【二进制中1的个数】      |  位运算  |          [numberOf1](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/BitOperation/NumberOf1_offer15.java)          |
 |  11   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |

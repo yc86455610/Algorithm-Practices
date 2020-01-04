@@ -28,14 +28,14 @@ public class FindGreatestSumOfSubArray {
     public static void main(String[] args) {
         int[] arr = {1, -2, 3, 10, -4, 7, 2, -5};
         int nlLength = 8;
-//        System.out.println(FindGreatestSumOfSubArray(arr, nlLength));
-        System.out.println(FindGreatestSumOfSubArrayDp(arr, nlLength));
+//        System.out.println(findGreatestSumOfSubArray(arr, nlLength));
+        System.out.println(findGreatestSumOfSubArrayDp(arr, nlLength));
     }
 
     //定义全局变量来标记输入是否无效
     static boolean g_isInvalidInput = false;
 
-    public static int FindGreatestSumOfSubArray(int[] arr, int nLength) {
+    public static int findGreatestSumOfSubArray(int[] arr, int nLength) {
         if (arr == null || nLength <= 0) {
             g_isInvalidInput = true;  //输入无效
             return 0;
@@ -55,7 +55,7 @@ public class FindGreatestSumOfSubArray {
         return greatestSum;
     }
 
-    public static int FindGreatestSumOfSubArrayDp(int[] arr, int nLength) {
+    public static int findGreatestSumOfSubArrayDp(int[] arr, int nLength) {
         if (arr == null || nLength <= 0) {
             g_isInvalidInput = true;  //输入无效
             return 0;

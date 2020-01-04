@@ -27,7 +27,7 @@
 |  07   |  【用两个栈实现队列】  |        栈        |       [TwoStackQueue](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/StackAndQueue/TestStack_offer9.java)        |
 |  08   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
 |  09   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
-|  10   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
+|  10   |      【二进制中1的个数】      |  位运算  |          [numberOf1](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/BitOperation/NumberOf1_offer15.java)          |
 |  11   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
 |  12   | 【打印1到最大的n位数】 |  递归，大数问题  |     [print1ToMaxOfNDigits](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/Arrays/print1ToMaxOfNDigits_offer17.java)      |
 |  13   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |

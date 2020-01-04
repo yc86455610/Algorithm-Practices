@@ -7,7 +7,6 @@ package yc.java.BitOperation;
  * @create: 2019-11-23 20:00
  **/
 
-import java.awt.font.NumericShaper;
 
 /**
  * 输入一个整数，输出该数二进制表示中 1 的个数。
@@ -23,13 +22,12 @@ import java.awt.font.NumericShaper;
 
 public class NumberOf1_offer15 {
     public static void main(String[] args) {
-        System.out.println(NumberOf1(8));
+        System.out.println(NumberOf1(15));
     }
 
     public static int NumberOf1(int n) {
         int cnt = 0;
         while (n != 0) {
-            //每按位与一次消除一个1
             cnt++;
             n &= (n - 1);
         }

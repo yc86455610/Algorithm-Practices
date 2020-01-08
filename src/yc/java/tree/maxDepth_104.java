@@ -5,7 +5,7 @@ package yc.java.tree;
  * @description: 求二叉树的高度
  * @author: yc
  * @create: 2019-11-24 13:36
- * <p>
+ *
  * 二叉树算法题中，主要考察以下几种算法思想：
  * 1、递归
  * 2、层次遍历
@@ -21,7 +21,7 @@ package yc.java.tree;
  * 9  20
  * /  \
  * 15   7
- * <p>
+ *
  * output : 3
  */
 public class maxDepth_104 {

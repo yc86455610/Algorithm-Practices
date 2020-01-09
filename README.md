@@ -20,7 +20,7 @@
 
 | 题号  |          题目          |       思想       |                                                                 代码                                                                  |
 | :---: | :--------------------: | :--------------: | :-----------------------------------------------------------------------------------------------------------------------------------: |
-|  03   |   【二维数组的查找】   |    数组，查找    |                  [find](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/Arrays/Find_offer4.java)                  |
+|  03   |   【二维数组的查找】   |    数组，查找    |                  [findDimArrays](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/arrays/FindDimArrays.java)                  |
 |  04   |      【替换空格】      |  字符串，双指针  |          [replaceSpace](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/String/replaceSpace_offer5.java)          |
 |  05   |  【从尾到头打印链表】  | 链表，递归，迭代 | [printListFromTailToHead ](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/ListNode/printListFromTailToHead.java) |
 |  06   |     【重建二叉树】     |      二叉树      |  [reConstructBinaryTree](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/Tree/reConstructBinaryTree_offer7.java)  |

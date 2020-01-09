@@ -33,33 +33,5 @@ public class FindKthToTail {
 
     }
 
-    public static void main(String[] args) {
-        InitListNode listnode = new InitListNode();
-        ListNode head = listnode.init();
-        System.out.println(FindKthToTail(head, 2).val);
-    }
 }
 
-class InitListNode {
-    public ListNode head = null;
-    public ListNode cur = null;
-
-    //加入数据
-    public void addData(int data) {
-        if (head == null) {
-            head = new ListNode(data);
-            cur = head;
-        } else {
-            cur.next = new ListNode(data);
-            cur = cur.next;
-        }
-    }
-
-    //初始化链表并返回表头
-    public ListNode init() {
-        for (int i = 0; i < 6; i++) {
-            this.addData(i + 1);
-        }
-        return head;
-    }
-}

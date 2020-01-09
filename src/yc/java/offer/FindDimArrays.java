@@ -1,8 +1,8 @@
-package yc.java.arrays;
+package yc.java.offer;
 
 /**
  * @program: Algorithm-Practices
- * @description: 二维数组的查找
+ * @description: 二维数组的查找--offer01
  * @author: yc
  * @create: 2019-11-30 19:12
  *

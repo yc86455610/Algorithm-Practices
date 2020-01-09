@@ -1,8 +1,8 @@
-package yc.java.dynamicplanning;
+package yc.java.offer;
 
 /**
  * @program: algorithm-practices
- * @description: 求连续子数组的最大和
+ * @description: 求连续子数组的最大和--offer45
  * @author: yc
  * @create: 2020-01-04 15:45
  *

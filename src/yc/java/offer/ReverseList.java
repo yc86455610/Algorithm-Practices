@@ -1,18 +1,20 @@
-package yc.java.listnode;
+package yc.java.offer;
 
 /**
  * @program: Algorithm-Practices
- * @description: 链表反转
+ * @description: 链表反转--offer30
  * @author: yc
  * @create: 2019-11-23 22:25
  **/
+
+import yc.java.listnode.ListNode;
 
 /**
  * 输入: 1->2->3->4->5->NULL
  * 输出: 5->4->3->2->1->NULL
  */
 
-public class reverseList_206 {
+public class ReverseList {
     //递归
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null)

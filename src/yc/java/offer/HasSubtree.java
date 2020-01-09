@@ -1,8 +1,10 @@
-package yc.java.tree;
+package yc.java.offer;
+
+import yc.java.tree.TreeNode;
 
 /**
  * @program: Algorithm-Practices
- * @description: 树的子结构
+ * @description: 树的子结构--offer32
  * @author: yc
  * @create: 2019-11-29 17:37
  *

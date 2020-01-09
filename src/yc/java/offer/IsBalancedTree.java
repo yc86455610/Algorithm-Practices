@@ -1,8 +1,10 @@
-package yc.java.tree;
+package yc.java.offer;
+
+import yc.java.tree.TreeNode;
 
 /**
  * @program: Algorithm-Practices
- * @description: 判别平衡二叉树：左右子树高度差不超过1
+ * @description: 判别平衡二叉树：左右子树高度差不超过1--offer54
  * @author: yc
  * @create: 2019-11-30 19:23
  **/

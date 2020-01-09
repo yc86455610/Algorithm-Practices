@@ -1,8 +1,10 @@
-package yc.java.listnode;
+package yc.java.offer;
+
+import yc.java.listnode.ListNode;
 
 /**
  * @program: Algorithm-Practices
- * @description: 找出两个链表的交点
+ * @description: 找出两个相交链表的交点--offer51
  * @author: yc
  * @create: 2019-11-23 22:22
  *
@@ -22,8 +24,8 @@ package yc.java.listnode;
  **/
 
 
-public class getIntersectionNode_160 {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+public class FindFirstCommonNode {
+    public ListNode findFirstCommonNode(ListNode headA, ListNode headB) {
         ListNode l1 = headA, l2 = headB;
         while (l1 != l2) {
             l1 = (l1 == null) ? headB : l1.next;

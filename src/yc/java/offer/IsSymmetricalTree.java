@@ -1,8 +1,10 @@
-package yc.java.tree;
+package yc.java.offer;
+
+import yc.java.tree.TreeNode;
 
 /**
  * @program: algorithm-practices
- * @description: 对称的二叉树
+ * @description: 对称的二叉树--offer13
  * @author: yc
  * @create: 2020-01-08 19:09
  *

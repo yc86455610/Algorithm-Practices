@@ -1,8 +1,10 @@
-package yc.java.listnode;
+package yc.java.offer;
+
+import yc.java.listnode.ListNode;
 
 /**
  * @program: Algorithm-Practices
- * @description: 合并两个排序的链表
+ * @description: 合并两个排序的链表--offer31
  * @author: yc
  * @create: 2019-11-29 15:38
  *
@@ -13,7 +15,7 @@ package yc.java.listnode;
  **/
 
 
-public class Merge {
+public class MergeListNode {
     //递归
     public ListNode merge1(ListNode list1, ListNode list2) {
         if (list1 == null) return list2;

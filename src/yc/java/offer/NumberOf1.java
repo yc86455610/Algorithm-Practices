@@ -1,8 +1,8 @@
-package yc.java.bitoperation;
+package yc.java.offer;
 
 /**
  * @program: Algorithm-Practices
- * @description: 二进制中 1 的个数
+ * @description: 二进制中 1 的个数--offer26
  * @author: yc
  * @create: 2019-11-23 20:00
  **/
@@ -20,7 +20,7 @@ package yc.java.bitoperation;
  * 时间复杂度：O(M)，其中 M 表示 1 的个数。
  */
 
-public class NumberOf1_offer15 {
+public class NumberOf1 {
     public static void main(String[] args) {
         System.out.println(numberOf1(15));
     }

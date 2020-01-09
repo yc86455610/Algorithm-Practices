@@ -1,17 +1,19 @@
-package yc.java.listnode;
+package yc.java.offer;
+
+import yc.java.listnode.ListNode;
 
 import java.util.ArrayList;
 import java.util.Stack;
 
 /**
  * @program: Algorithm-Practices
- * @description: 从尾到头打印链表：从尾到头反过来打印每个节点的值
+ * @description: 从尾到头打印链表，返回ArrayList--offer8
  * @author: yc
  * @create: 2019-11-24 17:41
  **/
 
 
-public class printListFromTailToHead {
+public class PrintListFromTailToHead {
     //递归法
     public static ArrayList<Integer> printListFromTailToHead1(ListNode listNode) {
         ArrayList<Integer> ret = new ArrayList<>();

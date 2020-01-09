@@ -1,8 +1,10 @@
-package yc.java.listnode;
+package yc.java.offer;
+
+import yc.java.listnode.ListNode;
 
 /**
  * @program: Algorithm-Practices
- * @description: 链表中环的入口节点
+ * @description: 链表中环的入口节点--offer9
  * @author: yc
  * @create: 2019-11-29 14:45
  *
@@ -19,9 +21,10 @@ package yc.java.listnode;
  **/
 
 
-public class EntryNodeOfLoop_offer23 {
+public class EntryNodeOfLoop {
     public ListNode EntryNodeOfLoop(ListNode head) {
-        if (head == null || head.next == null) return null;
+        if (head == null || head.next == null)
+            return null;
         ListNode slow = head, fast = head;
         do {
             fast = fast.next.next;

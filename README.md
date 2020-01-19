@@ -53,8 +53,8 @@
 |  31   |      【合并两个排序的链表】      |  链表，递归，迭代  |          [mergeListNode](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/offer/MergeListNode.java)          |
 |  32   |      【树的子结构】      |  树，递归  |          [hasSubtree](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/offer/HasSubtree.java)          |
 |  33   |      【二叉树的镜像】      |  动态规划  |          [findGreatestSumOfSubArray](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/DynamicPlanning/FindGreatestSumOfSubArray.java)          |
-|  34   |      【顺时针打印矩阵】      |  动态规划  |          [findGreatestSumOfSubArray](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/DynamicPlanning/FindGreatestSumOfSubArray.java)          |
-|  35   |      【包含min函数的栈】      |  动态规划  |          [findGreatestSumOfSubArray](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/DynamicPlanning/FindGreatestSumOfSubArray.java)          |
+|  34   |      【顺时针打印矩阵】      |  数组，双指针  |          [findGreatestSumOfSubArray](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/DynamicPlanning/FindGreatestSumOfSubArray.java)          |
+|  35   |      【包含min函数的栈】      |  动态规划  |          [printMatrix](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/arrays/PrintMatrix.java)          |
 |  36   |      【栈的压入、弹出序列】      |  动态规划  |          [findGreatestSumOfSubArray](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/DynamicPlanning/FindGreatestSumOfSubArray.java)          |
 |  37   |      【从上往下打印二叉树】      |  动态规划  |          [findGreatestSumOfSubArray](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/DynamicPlanning/FindGreatestSumOfSubArray.java)          |
 |  38   |      【二叉搜索树的后续遍历序列】      |  动态规划  |          [findGreatestSumOfSubArray](https://github.com/ycFw/Algorithm-Practices/blob/master/src/yc/java/DynamicPlanning/FindGreatestSumOfSubArray.java)          |

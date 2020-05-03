@@ -5,7 +5,7 @@ package yc.java.string;
  * @description: 报数问题
  * @author: yc
  * @create: 2019-12-10 23:00
- * <p>
+ *
  * 1   1
  * 2   11
  * 3   21
@@ -14,14 +14,14 @@ package yc.java.string;
  * 6   312211
  * 7   13112221
  * 8   1113213211
- * <p>
+ *
  * 思路：对前一个数进行描述 几(cnt)个几(pre)
  **/
 
 
 public class countAndSay_38 {
     public static void main(String[] args) {
-        for (int i = 1; i <= 20; i++) {
+        for (int i = 1; i <= 5; i++) {
             System.out.println("n=" + i + "的报数为：" + countAndSay(i));
         }
     }

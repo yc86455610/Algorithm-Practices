@@ -19,7 +19,7 @@ package yc.java.offer;
 public class GetUglyNumber {
     public static void main(String[] args) {
         System.out.println(getUglyNumberDp(50));
-        System.out.println(getUglyNumber(50));
+//        System.out.println(getUglyNumber(50));
     }
 
     //循环判断每一个数是否为丑数

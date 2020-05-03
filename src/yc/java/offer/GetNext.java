@@ -14,7 +14,7 @@ import yc.java.offer.TreeLinkNode;
  **/
 
 public class GetNext {
-    // 中序遍历：左=）根=》右
+    // 中序遍历：左 =）根 =》右
 
     /**
      * 1、如果一个节点的右子树不为空，那么该节点的下一个节点是右子树的最左节点

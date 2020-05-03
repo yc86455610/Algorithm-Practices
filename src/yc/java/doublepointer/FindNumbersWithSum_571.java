@@ -8,7 +8,6 @@ package yc.java.doublepointer;
  **/
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * 输入一个递增排序的数组和一个数字 S，在数组中查找两个数，使得他们的和正好是 S。
@@ -19,23 +18,26 @@ import java.util.Arrays;
 
 public class FindNumbersWithSum_571 {
     public static void main(String[] args) {
-        int[] array = {2, 3, 4, 5, 6};
+
+        int[] array = {1, 2, 6, 8};
         int sum = 8;
         ArrayList<Integer> list = FindNumbersWithSum(array, sum);
-        System.out.println(Arrays.toString(list.toArray()));
+        System.out.println(list);
     }
 
     public static ArrayList<Integer> FindNumbersWithSum(int[] array, int sum) {
         int i = 0, j = array.length - 1;
+        ArrayList<Integer> res = new ArrayList<>();
         while (i < j) {
             int cur = array[i] + array[j];
-            if (cur == sum)
-                return new ArrayList<>(Arrays.asList(array[i], array[j]));
-            else if (cur < sum)
+            if (cur == sum) {
+                res.add(array[i]);
+                res.add(array[j]);
+            } else if (cur < sum)
                 i++;
             else
                 j--;
         }
-        return new ArrayList<>();
+        return res;
     }
 }

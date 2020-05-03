@@ -25,7 +25,6 @@ public class ReverseList {
         head.next = null;
         return newHead;
     }
-
     //迭代(头插法)
     public ListNode reverseList2(ListNode head) {
         ListNode newHead = new ListNode(-1);

@@ -1,6 +1,7 @@
 package yc.java.arrays;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * @program: Algorithm-Practices
@@ -11,34 +12,30 @@ import java.util.Arrays;
 
 
 public class IsContinuousCards {
+    static final int N = 5;
+
     public static void main(String[] args) {
-        int[] nums1 = {1, 3, 4, 5, 0};
-        int[] nums2 = {1, 4, 0, 5, 0};
-        System.out.println(isContinuous(nums1));
-        System.out.println(isContinuous(nums2));
+        Scanner sc = new Scanner(System.in);
+        int[] nums = new int[N];
+        for (int i = 0; i < N; i++) nums[i] = sc.nextInt();
+        System.out.println(isContinuous(nums));
     }
 
     private static boolean isContinuous(int[] nums) {
-        if (nums.length < 5) return false;
+        if (nums.length != 5) return false;
         Arrays.sort(nums);
 
         //统计癞子数量
         int cnt = 0;
         for (int num : nums) {
-            if (num == 0)
-                cnt++;
+            if (num == 0) cnt++;
         }
 
         //使用癞子补全不连续的顺子
         for (int i = cnt; i < nums.length - 1; i++) {
-            if (nums[i + 1] == nums[i])
-                return false;   //牌面中有一样的牌，直接返回false
-
-            //例子中排序后卫 0，1，3，4，5， 用癞子去补2，消耗一张癞子
+            if (nums[i + 1] == nums[i]) return false;
             cnt -= nums[i + 1] - nums[i] - 1;
         }
-
         return cnt >= 0;
     }
-
 }

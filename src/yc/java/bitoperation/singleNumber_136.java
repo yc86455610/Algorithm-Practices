@@ -16,14 +16,15 @@ package yc.java.bitoperation;
 //两个相同的数异或的结果为 0，对所有数进行异或操作，最后的结果就是单独出现的那个数。
 public class singleNumber_136 {
     public static void main(String[] args) {
-        int[] nums = {4, 1, 2, 1, 2};
+        int[] nums = {5, 1, 2, 1, 2};
         System.out.println(singleNumber(nums));
     }
 
     public static int singleNumber(int[] nums) {
         int ret = 0;
-        for (int num : nums)
-            ret = ret ^ num;
+        for (int num : nums) {
+            ret ^= num;
+        }
         return ret;
     }
 }

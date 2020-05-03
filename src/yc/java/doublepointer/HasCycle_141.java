@@ -11,11 +11,7 @@ import yc.java.listnode.ListNode;
  **/
 
 
-public class hasCycle_141 {
-    public static void main(String[] args) {
-        System.out.println();
-    }
-
+public class HasCycle_141 {
     public static boolean hasCycle(ListNode head) {
         if (head == null) return false;
         ListNode slow = head, fast = head.next;

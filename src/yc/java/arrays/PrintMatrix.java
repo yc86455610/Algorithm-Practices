@@ -1,6 +1,5 @@
 package yc.java.arrays;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -32,18 +31,12 @@ public class PrintMatrix {
                     ret.add(matrix[row2][i]);
                 }
             }
-
             if (col1 != col2) {
                 for (int i = row2 - 1; i > row1; i--) {
                     ret.add(matrix[i][col1]);
                 }
             }
-
-            row1++;
-            row2--;
-            col1++;
-            col2--;
-
+            row1++;row2--;col1++;col2--;
         }
 
         int[] array = new int[ret.size()];

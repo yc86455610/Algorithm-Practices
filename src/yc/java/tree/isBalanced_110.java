@@ -6,8 +6,8 @@ package yc.java.tree;
  * @description: 二叉树是否是平衡树：平衡树左右子树高度差都小于等于1
  * @author: yc
  * @create: 2019-11-24 13:46
- * <p>
- * <p>
+ *
+ *
  * 3
  * / \
  * 9  20

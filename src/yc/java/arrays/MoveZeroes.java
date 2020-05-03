@@ -2,7 +2,7 @@ package yc.java.arrays;
 
 /**
  * @program: interview
- * @description: 把数组中的 0 移到末尾
+ * @description: 把数组中的 0 移到末尾，保持相对顺序不变
  * @author: yc
  * @create: 2019-11-23 18:20
  **/
@@ -19,25 +19,21 @@ import java.util.Scanner;
 public class MoveZeroes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        final int NUMS_LENGTH = 10;
-        int[] nums = new int[NUMS_LENGTH];
-        for (int i = 0; i < NUMS_LENGTH; i++) {
-            nums[i] = sc.nextInt();
-        }
+        int n = sc.nextInt();
+        int[] nums = new int[n];
+        for (int i = 0; i < nums.length; i++) nums[i] = sc.nextInt();
         moveZeroes(nums);
         System.out.println(Arrays.toString(nums));
     }
 
-    public static void moveZeroes(int[] nums) {
-        //cnt是数组中非0的个数
+    private static void moveZeroes(int[] nums) {
+        //统计非0元素，填充到数组中
         int cnt = 0;
         for (int num : nums) {
-            if (num != 0) {
-                nums[cnt++] = num;
-            }
+            if (num != 0) nums[cnt++] = num;
         }
 
-        //数组中存在0元素
+        //末尾补充0元素
         while (cnt < nums.length) {
             nums[cnt++] = 0;
         }
